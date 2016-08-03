@@ -63,7 +63,5 @@ object Build extends Build {
 
   lazy val root = Project("scalafunc", file("."))
     .settings(rootSettings: _*)
-    .settings(publish := {})
-    .settings(publishArtifact := false)
     .settings(name := "scalafunc")
 }
